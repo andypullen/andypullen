@@ -1,5 +1,6 @@
 import React from "react"
+import About from "../sections/about"
 
 export default function Home() {
-  return <div>Andy Pullen.</div>
+  return <div><About /></div>
 }
