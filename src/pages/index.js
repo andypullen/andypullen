@@ -1,5 +1,5 @@
 import React from "react"
 
 export default function Home() {
-  return <div>Wuzzup!</div>
+  return <div>Andy Pullen.</div>
 }
