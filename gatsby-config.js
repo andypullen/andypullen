@@ -6,5 +6,10 @@
 
 module.exports = {
   /* Your site config here */
+  purge: [
+    './src/**/*.html',
+    './src/**/*.vue',
+    './src/**/*.jsx',
+  ],
   plugins: ["gatsby-plugin-postcss"],
 }
