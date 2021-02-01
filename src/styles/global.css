@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;500&display=swap');
 
 html {
-  background-color: black;
+  background-color: darkgray;
 }
 
 body {
@@ -14,10 +14,15 @@ div {
 }
 
 h1 {
-	font-size: 1rem;
+	font-size: 2rem;
+	line-height: 2.4rem;
 	text-transform: uppercase;
 	font-weight: bold;
-	background: -webkit-linear-gradient(#eee, #333);
+	background: -webkit-linear-gradient(#fff, #eee);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+a {
+	color: #fff;
 }
