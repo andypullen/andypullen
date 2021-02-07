@@ -5,8 +5,23 @@ html {
 }
 
 body {
-	font-family: 'Fira Code', monospace;
+	font-family: 'Baloo 2', sans-serif;
 	font-size: 18px;
+}
+
+main {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all .27s ease-in-out;
+	transition: all .27s ease-in-out;
+	border-radius: 4px;
+	background: -webkit-gradient(linear,left top, left bottom,from('to right'),color-stop(10%, #d367c1),color-stop(25%, #dedf40),color-stop(50%, #62cb5c),color-stop(75%, #00bbcb),color-stop(90%, #ab79d6));
+	background: linear-gradient('to right',#d367c1 10%,#dedf40 25%,#62cb5c 50%,#00bbcb 75%,#ab79d6 90%);
+	content: "";
+	z-index: -1;
 }
 
 div {
