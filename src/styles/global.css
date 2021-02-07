@@ -15,12 +15,16 @@ main {
 	color: white;
 	border-width: 3px;
 	border-style: solid;
+	transform: skew(15deg, 15deg);
 	border-image: 
 	linear-gradient(
 		to bottom, 
 		red, 
 		orange
 	) 1 100%;
+	div {
+		transform: skew(-15deg, -15deg);
+	}
 }
 
 div {
