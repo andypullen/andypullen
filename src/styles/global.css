@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap');
 
 html {
-  background-color: darkgray;
+  background-color: #222;
 }
 
 body {
@@ -18,8 +18,8 @@ main {
 	-webkit-transition: all .27s ease-in-out;
 	transition: all .27s ease-in-out;
 	border-radius: 4px;
-	background: -webkit-gradient(linear,left top, left bottom,from('to right'),color-stop(10%, #d367c1),color-stop(25%, #dedf40),color-stop(50%, #62cb5c),color-stop(75%, #00bbcb),color-stop(90%, #ab79d6));
-	background: linear-gradient('to right',#d367c1 10%,#dedf40 25%,#62cb5c 50%,#00bbcb 75%,#ab79d6 90%);
+	background: -webkit-gradient(linear,left top, left bottom,from(to right),color-stop(10%, #d367c1),color-stop(25%, #dedf40),color-stop(50%, #62cb5c),color-stop(75%, #00bbcb),color-stop(90%, #ab79d6));
+	background: linear-gradient(to right,#d367c1 10%,#dedf40 25%,#62cb5c 50%,#00bbcb 75%,#ab79d6 90%);
 	content: "";
 	z-index: -1;
 }
@@ -33,9 +33,6 @@ h1 {
 	line-height: 2.4rem;
 	text-transform: uppercase;
 	font-weight: bold;
-	background: -webkit-linear-gradient(#fff, #eee);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
 
 a {
