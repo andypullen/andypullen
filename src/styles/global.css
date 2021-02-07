@@ -10,17 +10,17 @@ body {
 }
 
 main {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	-webkit-transition: all .27s ease-in-out;
-	transition: all .27s ease-in-out;
-	border-radius: 4px;
-	background: linear-gradient(to right, red, purple);
-	content: "";
-	z-index: -1;
+	max-width: 250px;
+	padding: 1rem;
+	color: white;
+	border-width: 3px;
+	border-style: solid;
+	border-image: 
+	linear-gradient(
+		to bottom, 
+		red, 
+		orange
+	) 1 100%;
 }
 
 div {
