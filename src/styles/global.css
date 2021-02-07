@@ -16,12 +16,13 @@ main {
 	height: 100vh;
 }
 
-div {
+div.content {
 	padding: 3rem;
+	background: #212125;
 	color: white;
 	border-width: 3px;
 	border-style: solid;
-	transform: skew(2deg);
+	transform: skew(12deg);
 	border-image: 
 	linear-gradient(
 		to bottom, 
@@ -34,10 +35,13 @@ h1 {
 	font-size: 2rem;
 	line-height: 2.4rem;
 	font-weight: bold;
-	transform: skew(-2deg);
+	transform: skew(-12deg);
+}
+
+p {
+	transform: skew(-12deg);
 }
 
 a {
 	color: #fff;
-	transform: skew(-2deg);
 }
