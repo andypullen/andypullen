@@ -10,20 +10,22 @@ body {
 }
 
 main {
-	max-width: 250px;
-	padding: 1rem;
-	color: white;
-	border-width: 3px;
-	border-style: solid;
-	transform: skew(15deg, 15deg);
-	border-image: 
-	linear-gradient(
-		to bottom, 
-		red, 
-		orange
-	) 1 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	div {
-		transform: skew(-15deg, -15deg);
+		max-width: 250px;
+		padding: 1rem;
+		color: white;
+		border-width: 3px;
+		border-style: solid;
+		transform: skew(2deg);
+		border-image: 
+		linear-gradient(
+			to bottom, 
+			red, 
+			orange
+		) 1 100%;
 	}
 }
 
@@ -35,8 +37,10 @@ h1 {
 	font-size: 2rem;
 	line-height: 2.4rem;
 	font-weight: bold;
+	transform: skew(-2deg);
 }
 
 a {
 	color: #fff;
+	transform: skew(-2deg);
 }
