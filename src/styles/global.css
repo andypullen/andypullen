@@ -32,6 +32,10 @@ div.content {
 	) 1 100%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	transform: skew(-12deg);
+}
+
 h1 {
 	font-size: 2rem;
 	line-height: 2.4rem;
