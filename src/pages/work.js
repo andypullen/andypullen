@@ -15,7 +15,7 @@ export default function Home() {
       </p>
       <h3>My day job</h3>
       <p>
-        <a href="https://willamette.cc/>Willamette Christian Church</a> - Web design & development using <a href="https://craftcms.org">Craft CMS</a>
+        <a href="https://willamette.cc/">Willamette Christian Church</a> - Web design & development using <a href="https://craftcms.org">Craft CMS</a>
     </div>
   </main>
 }
