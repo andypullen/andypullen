@@ -3,7 +3,7 @@ import React from "react"
 export default function Home() {
   return <main>
     <div className="content">
-      <h1>Work I'm proud of</h1>
+      <h1>Some things I've done</h1>
       <p>
         <a href="https://www.summitbirthportland.com">Summit Birth Services</a> – branding & Squarespace website
       </p>
@@ -15,7 +15,7 @@ export default function Home() {
       </p>
       <h3>My day job</h3>
       <p>
-        <a href="https://willamette.cc/">Willamette Christian Church</a> - Web design & development using <a href="https://craftcms.org">Craft CMS</a>
+        <a href="https://willamette.cc/">Willamette Christian Church</a> - Design + development using <a href="https://craftcms.org">Craft CMS</a>
       </p>
     </div>
   </main>
