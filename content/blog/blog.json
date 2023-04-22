@@ -1,6 +1,0 @@
-{
-	"layout": "layouts/blog-post.njk",
-	"color": "green",
-	"section": "Blog",
-	"tags": "blog"
-}
