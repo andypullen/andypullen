@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+---
+
+<h1 class="text-5xl font-bold">{{ title }}</h1>
+<time class="postlist-date text-sm" datetime="{{ date | htmlDateString }}">{{ date | readableDate("LLLL dd, yyyy") }}</time>
+
+<div class="mt-8 mb-8 markdown-body">
+	<p class="lead text-xl mb-3">{{ snippet }}</p>
+	{{ content | safe }}
+</div>
+
+<div class="flex">
+	<a href="/blog" class="px-2 py-2 bg-none text-green border-green border-2 hover:bg-gray-dark hover:text-gray-light hover:border-gray-light hover:border-2 rounded flex gap-1">
+		<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+			<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+			<polyline points="15 6 9 12 15 18"></polyline>
+		</svg>
+		<span class="mr-2">Back to the Blog</span>
+	</a>
+</div>

@@ -1,12 +1,15 @@
+---
+title: andypullen.com
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<link rel="stylesheet" href="/assets/css/tailwind.css" />
-	<title>Andy Pullen&#39;s website</title>
+	<link rel="stylesheet" href="{{ '/assets/css/tailwind.css' | url }}" />
+	<title>{{ title }}</title>
 </head>
-<body class="text-blue">
+<body class="text-{{ color }}">
 	<div class="w-full py-6 px-8 flex flex-col md:flex-row justify-between gap-4">
 		<div class="flex items-center flex-1">
 			🧔🏻
@@ -16,13 +19,13 @@
 		</div>
 		<ul class="flex items-center gap-6">
 			<li>
-				<a href="/" class="hover:text-gray-light py-1 border-gray-light border-b-2">Home</a>
+				<a href="/" class="hover:text-gray-light py-1 border-gray-light{{ ' border-b-2' if section === "Home" }}">Home</a>
 			</li>
 			<li>
-				<a href="/benediction" class="hover:text-gray-light py-1 border-gray-light">Benediction</a>
+				<a href="/benediction" class="hover:text-gray-light py-1 border-gray-light{{ ' border-b-2' if section === "Benediction" }}">Benediction</a>
 			</li>
 			<li>
-				<a href="/blog" class="hover:text-gray-light py-1 border-gray-light">Blog</a>
+				<a href="/blog" class="hover:text-gray-light py-1 border-gray-light{{ ' border-b-2' if section === "Blog" }}">Blog</a>
 			</li>
 			<li>
 				<a rel="me" class="text-gray-500 hover:text-gray-light py-1 border-gray-light" href="https://mastodon.social/@ajp">
@@ -36,12 +39,7 @@
 		</ul>
 	</div>
 	<main class="max-w-screen-md px-4 pt-16 mx-auto">
-		<h1 class="text-5xl ml-3 font-bold mb-10">
-	Hello. I make <a class="hover:text-gray-light underline" href="https://beaverton.cc/">very</a> <a class="hover:text-gray-light underline" rel="nofollow" href="https://www.cascadewebdev.com/">good</a> <a class="hover:text-gray-light underline" href="https://www.summitbirthportland.com/">websites</a>. Let me know if you need one.
-</h1>
-<div class="flex">
-	<a type="button" class="text-5xl px-3 py-2 border-blue-dark border-2 hover:border-blue hover:border-2 hover:bg-gray-dark rounded flex gap-2" href="mailto:a@andypullen.com">✉️<span class="sr-only">Email me</span></a>
-</div>
+		{{ content | safe }}
 	</main>
 </body>
 </html>

@@ -1,0 +1,39 @@
+---
+title: The Andy Blog
+eleventyExcludeFromCollections: true
+layout: layouts/base.njk
+color: gold
+---
+<main class="max-w-screen-md px-4 pt-16 mx-auto">
+	<h1 class="text-5xl font-bold mb-10">
+		{{ title }}
+	</h1>
+	<div>
+		{% set postslist = collections.blog %}
+		<ol reversed class="postlist" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
+		{% for post in postslist | reverse %}
+			<li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+				<div class="py-8 border-t">
+					<a class="sm:col-span-2 md:flex justify-between" href={{ post.url }}>
+						<h3 class="text-3xl text-dark-blue font-bold hover:text-underline hover:text-gray-light">
+							{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}
+						</h3>
+						<button
+							class="px-2 py-2 bg-none text-{{ color }} border-{{ color }} border-2 hover:bg-gray-dark hover:text-gray-light hover:border-gray-light rounded flex gap-1"
+						>
+							<span class="ml-2">Read Post</span>
+							<IconChevronRight />
+						</button>
+					</a>
+					<time class="postlist-date text-sm" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL dd, yyyy") }}</time>
+					{% if post.data.snippet %}
+					<div class="mt-4 text-lg">
+						{{ post.data.snippet }}
+					</div>
+					{% endif %}
+				</div>
+			</li>
+		{% endfor %}
+		</ol>
+	</div>
+</main>

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	background-color: rgb(43, 48, 63);
+}
+
+.markdown-body {
+	background-color: inherit;
+	color: inherit;
+}
+
+.markdown-body img {
+	background-color: inherit;
+}
+
+.markdown-body a {
+	color: rgba(211,220,230,var(--tw-text-opacity));
+}
