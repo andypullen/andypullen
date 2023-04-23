@@ -1094,6 +1094,14 @@ body {
   color: rgba(211,220,230,var(--tw-text-opacity));
 }
 
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+
+.markdown-body p {
+  margin-bottom: 1rem;
+}
+
 .hover\:border-2:hover {
   border-width: 2px;
 }
