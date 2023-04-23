@@ -18,3 +18,11 @@ body {
 .markdown-body a {
 	color: rgba(211,220,230,var(--tw-text-opacity));
 }
+
+.markdown-body a:hover {
+	text-decoration: underline;
+}
+
+.markdown-body p {
+	margin-bottom: 1rem;
+}
