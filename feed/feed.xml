@@ -4,42 +4,10 @@
 	<subtitle>The Hypertext Home of Andy Pullen</subtitle>
 	<link href="https://andypullen.com/feed/feed.xml" rel="self"/>
 	<link href="https://andypullen.com/blog/"/>
-	<updated>2023-11-03T16:49:53Z</updated>
+	<updated>2023-11-04T03:21:23Z</updated>
 	<id>https://andypullen.com/blog/</id>
 	<author>
 		<name>Andy Pullen</name>
 		<email>a@andypullen.com</email>
 	</author>
-	
-	<entry>
-		<title>Benediction App Launched</title>
-		<link href="https://andypullen.com/blog/benediction/"/>
-		<updated>2023-03-13T00:00:00Z</updated>
-		<id>https://andypullen.com/blog/benediction/</id>
-		<description>Bucket list item ✅</description>
-		<content type="html">&lt;p&gt;I launched my first app on the app store! &lt;a href=&quot;https://andypullen.com/benediction&quot;&gt;Benediction&lt;/a&gt; has been a pet project I&#39;ve been working on in my limited free time. It&#39;s written completely in SwiftUI, and I&#39;m super proud of it. Each day, people will see the same prayer sourced from scripture or historical church leaders throughout various Christian traditions. Feel free to check it out and let me know what you think.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Croc Jibbitz</title>
-		<link href="https://andypullen.com/blog/croc-jibbitz/"/>
-		<updated>2023-02-03T00:00:00Z</updated>
-		<id>https://andypullen.com/blog/croc-jibbitz/</id>
-		<description>Who knew these were a thing?</description>
-		<content type="html">&lt;p&gt;I came across this &lt;a href=&quot;https://www.etsy.com/listing/1374331352/croc-toe-jibbit&quot;&gt;toe jibbit for crocs&lt;/a&gt;, and much laughter ensued, and then found out that there is a &lt;a href=&quot;https://www.etsy.com/search?q=croc%20jibbitz&amp;amp;ref=auto-1&amp;amp;as_prefix=croc%20jib&quot;&gt;whole&lt;/a&gt; &lt;a href=&quot;https://www.crocs.com/c/jibbitz&quot;&gt;swath&lt;/a&gt; of jibbitz for crocs. Are there jibbitz for other things? What does jibbitz mean? Do people still wear crocs? Do people who still wear crocs actually decorate them with jibbitz? What about toe jibbitz? These are important questions!&lt;/p&gt;
-&lt;p&gt;This kid is a genius.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Update:&lt;/em&gt; These toe jibbitz might not be available any more. Too bad.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>I made a blog.</title>
-		<link href="https://andypullen.com/blog/first-post/"/>
-		<updated>2023-01-19T00:00:00Z</updated>
-		<id>https://andypullen.com/blog/first-post/</id>
-		<description>You happen to be reading it now.</description>
-		<content type="html">&lt;p&gt;Hi there. I build a blog using &lt;a href=&quot;https://www.11ty.dev&quot;&gt;11ty&lt;/a&gt;, which I hope will be fun to play with and learn. We&#39;ll see where this goes.&lt;/p&gt;
-</content>
-	</entry>
 </feed>

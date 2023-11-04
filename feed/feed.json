@@ -10,32 +10,5 @@
 		"url": "https://andypullen.com"
 	},
 	"items": [
-		{
-			"id": "https://andypullen.com/blog/benediction/",
-			"url": "https://andypullen.com/blog/benediction/",
-			"title": "Benediction App Launched",
-			"description": "Bucket list item ✅",
-			"content_html": "<p>I launched my first app on the app store! <a href=\"https://andypullen.com/benediction\">Benediction</a> has been a pet project I've been working on in my limited free time. It's written completely in SwiftUI, and I'm super proud of it. Each day, people will see the same prayer sourced from scripture or historical church leaders throughout various Christian traditions. Feel free to check it out and let me know what you think.</p>\n",
-			"date_published": "2023-03-13T00:00:00Z"
-		}
-		,
-		{
-			"id": "https://andypullen.com/blog/croc-jibbitz/",
-			"url": "https://andypullen.com/blog/croc-jibbitz/",
-			"title": "Croc Jibbitz",
-			"description": "Who knew these were a thing?",
-			"content_html": "<p>I came across this <a href=\"https://www.etsy.com/listing/1374331352/croc-toe-jibbit\">toe jibbit for crocs</a>, and much laughter ensued, and then found out that there is a <a href=\"https://www.etsy.com/search?q=croc%20jibbitz&amp;ref=auto-1&amp;as_prefix=croc%20jib\">whole</a> <a href=\"https://www.crocs.com/c/jibbitz\">swath</a> of jibbitz for crocs. Are there jibbitz for other things? What does jibbitz mean? Do people still wear crocs? Do people who still wear crocs actually decorate them with jibbitz? What about toe jibbitz? These are important questions!</p>\n<p>This kid is a genius.</p>\n<p><em>Update:</em> These toe jibbitz might not be available any more. Too bad.</p>\n",
-			"date_published": "2023-02-03T00:00:00Z"
-		}
-		,
-		{
-			"id": "https://andypullen.com/blog/first-post/",
-			"url": "https://andypullen.com/blog/first-post/",
-			"title": "I made a blog.",
-			"description": "You happen to be reading it now.",
-			"content_html": "<p>Hi there. I build a blog using <a href=\"https://www.11ty.dev\">11ty</a>, which I hope will be fun to play with and learn. We'll see where this goes.</p>\n",
-			"date_published": "2023-01-19T00:00:00Z"
-		}
-		
 	]
 }
