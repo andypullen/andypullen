@@ -1,4 +1,14 @@
 {
+  "actions" : {
+    "build" : {
+      "postActions" : [
+        {
+          "script" : "curl localhost:8000\/quotes.php",
+          "type" : "runScript"
+        }
+      ]
+    }
+  },
   "extension" : {
     "identifier" : "panic.PHP",
     "name" : "PHP"
